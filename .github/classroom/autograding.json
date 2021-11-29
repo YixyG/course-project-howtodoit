@@ -1,7 +1,7 @@
 {
   "tests": [
     {
-      "name": "Autotesting Action",
+      "name": "All test cases",
       "setup": "",
       "run": "gradle test",
       "input": "",
