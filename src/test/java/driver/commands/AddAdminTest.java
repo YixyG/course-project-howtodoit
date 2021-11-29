@@ -27,7 +27,7 @@ class AddAdminTest {
     public void testSuccessfullyAddedAdmin() {
         try {
             String[] args = {"Goats Club", "Rafa"};
-            addAdminCommand.execute("Rafa", args);
+            addAdminCommand.execute("Roge", args);
             // Check that the user is a new administrator
             User user2 = userList.getUser("Rafa");
             Team team = user2.getTeamList().getTeam("Goats Club");
